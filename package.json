@@ -1,8 +1,11 @@
 {
   "name": "kbone-react-cli",
-  "version": "0.0.1",
-  "description": "kbone-react的脚手架初始化工具，自带项目基础设施，真正的开箱即用",
+  "version": "0.1.3",
+  "description": "kbone-react的脚手架初始化工具，自带项目基础设施，开箱即用",
   "main": "index.js",
+  "bin": {
+    "kreact": "./bin/kreact"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
